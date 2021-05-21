@@ -61,7 +61,7 @@ header ul li a {
 
 .banner {
     height: 100vh;
-    background-color: url(./images/banner.jpg) no-repeat;
+    background: url(./images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -117,4 +117,45 @@ header ul li a {
     height: 100%;
 }
 
-.brand-logo {}
+.brand-logo {
+    padding: 30px 0;
+}
+
+.brand-logo-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one {
+    position: relative;
+    padding: 80px 0;
+}
+
+.section-one h3 {
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.section-one p {
+    line-height: 32px;
+}
+
+.section-one-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-one .text {
+    width: 49%;
+}
+
+.section-one .text-left {
+    text-align: right;
+}
+
+.section-one .text-right {
+    text-align: left;
+}
