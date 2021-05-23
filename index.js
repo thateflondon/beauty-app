@@ -11,3 +11,7 @@ const r = rolly({
   // other options
 });
 r.init();
+
+AOS.init({
+  duration: 1500, // global duration
+});
