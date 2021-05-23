@@ -4,3 +4,10 @@ $(".section-three-slider").slick({
   slidesToScroll: 2,
   speed: 1500,
 });
+
+const r = rolly({
+  view: document.querySelector(".app"),
+  native: true,
+  // other options
+});
+r.init();
